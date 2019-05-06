@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="./imgs/unifor.png" type="image/x-icon" />
+    <title>Unifor</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="bg-light">
+    <header class="bg-primary">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+          <a class="navbar-brand" href="#"
+            ><img src="./imgs/unifor.png" alt="" class="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center text-light" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#welcome"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#tabela">Tabela</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="#contato">Contato</a>
+                </li>
+          
+            </ul>
+          </div>
+        </div>
+        </nav>
+    </header>
+        <section class="welcome" id=#welcome>
+            <div class="container">
+        <div class="jumbotron mt-4 text-light">
+            <h1 class="display-4">Seja Bem vindo a Unifor!</h1>
+            <p class="lead">A melhor do Norte e Nordeste</p>
+            <hr class="my-4 bg-light">
+            <p>Faça um curso de qualidade com em um ambiente agradavél e bem estruturado</p>
+            <a class="btn  btn-lg text-light" href="https://unifor.br/" role="button">Leia mais</a>
+     </div>
+     <div class="col">
+     <div class="title text-center px-4 h2 mx-auto mb-4" id="sobre">Estude na Unifor</div>
+     <div class="mr-4 row justify-content-between">
+        
+       <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+              <img src="./imgs/cc.jpg" class="card-img-top" alt="..."  style="height:200px;">
+              <div class="card-body">
+                <div class="card-title text-center"><h6>CC</h6></div>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a class="btn  btn-md text-light" href="#" role="button">Leia Mais</a>
+              </div>
+            </div>
+       </div>
+       <div class="col-md-3">
+          <div class="card" style="width: 18rem;">
+              <img src="./imgs/Graduacao-card-novo.jpg" class="card-img-top" alt="..." style="height:200px;">
+              <div class="card-body">
+                <div class="card-title text-center"><h6>Praça</h6></div>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a class="btn  btn-md text-light" href="#" role="button">Leia Mais</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="./imgs/ginasio.jpg" class="card-img-top" alt="..." style="height:200px;">
+                <div class="card-body">
+                  <div class="card-title text-center"><h6>Ginásio</h6></div>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a class="btn  btn-md text-light" href="#" role="button">Leia Mais</a>
+                </div>
+              </div>
+          </div>
+     </div>
+    </div>
+    </div>
+  </section>
+  <section id="tabela">
+      <div class="title h2 mx-auto py-2 mt-4 mb-4">Tabela</div>
+      <div class="container">
+          <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nome</th>
+                  <th scope="col">Sobremone</th>
+                  <th scope="col">Telefone</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Júlio</td>
+                  <td>Cesar</td>
+                  <td>(85)987643425</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>João</td>
+                  <td>Da Silva</td>
+                  <td>(85)994243628</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Antônio</td>
+                  <td>de Pádua</td>
+                  <td>(85) 982293614</td>
+                </tr>
+              </tbody>
+            </table>
+
+      </div>
+  </section>
+  <section id="contato">
+    <div class="title h2 mx-auto py-2 mt-4">Contato</div>
+<div class="container">
+    <form>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+         <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" class="form-control" id="nome" placeholder="name@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <input class="btn btn-md text-light" type="submit" value="Enviar">
+
+      </form>
+    </div>
+  </section>
+   <footer class="py-3 mt-4">
+    <p class="text-center">&copy; All Rights Reserved</p>
+   </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
